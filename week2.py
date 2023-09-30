@@ -12,5 +12,14 @@
 # This will make it easier to access tweets from certain users
 
 ''' How many inbound & outbound responses are in the dataset? ''' 
+# Inbound (original message) & Outbound (replies)
+# There seems to be 1-5 Outbound responses per inbound response.
+# TODO * estimated calculations 
 
 ''' How many unique tweets are there & top 20 Twitter users? '''
+# Unique tweets: TODO * estimated calculations 
+# Top users: TODO * find most repeated users
+'''VerizonSupport, ChipotleTweets, ATVIAssist, AdobeCare, AmazonHelp,
+AirbnbHelp, nationalrailenq, AirAsiaSupport, NikeSupport, AskAmex,
+McDonalds, AppleSupport, Uber_Support, Delta
+'''
