@@ -19,7 +19,8 @@
 ''' How many unique tweets are there & top 20 Twitter users? '''
 # Unique tweets: TODO * estimated calculations 
 # Top users: TODO * find most repeated users
-'''VerizonSupport, ChipotleTweets, ATVIAssist, AdobeCare, AmazonHelp,
+'''
+VerizonSupport, ChipotleTweets, ATVIAssist, AdobeCare, AmazonHelp,
 AirbnbHelp, nationalrailenq, AirAsiaSupport, NikeSupport, AskAmex,
 McDonalds, AppleSupport, Uber_Support, Delta
 '''
