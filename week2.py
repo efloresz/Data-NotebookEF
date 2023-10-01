@@ -1,8 +1,8 @@
 ''' Understand the data and describe the data using Python libraries '''
 # Load dataset into pandas python notebook
-import pandas as pd
-df = pd.read_csv('twcs.csv')
-print(df)
+# import pandas as pd
+# df = pd.read_csv('twcs.csv')
+# print(df)
 
 ''' Identify 3 ways the data can be cleaned '''
 # The data can be cleaned by reordering the 'created_at' attribute by date added.
