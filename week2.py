@@ -7,7 +7,7 @@ head() # returns first 5 dataset records
 info() # char of data (column names)
 describe() # basic statistcal char of each numerical value 
 
-# check duplicated vak=lues of 'author_id'
+# check duplicated values of 'author_id'
 duplicateValues = tweetData.duplicated()
 print(duplicatedValues.sum())
 tweetData[duplicateValues]
