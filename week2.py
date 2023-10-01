@@ -3,6 +3,14 @@
 import pandas as pd
 df = pd.read_csv('twcs.csv')
 print(df)
+head() # returns first 5 dataset records 
+info() # char of data (column names)
+describe() # basic statistcal char of each numerical value 
+
+# check duplicated vak=lues of 'author_id'
+duplicateValues = tweetData.duplicated()
+print(duplicatedValues.sum())
+tweetData[duplicateValues]
 
 ''' Identify 3 ways the data can be cleaned '''
 # The data can be cleaned by reordering the 'created_at' attribute by date added.
