@@ -9,7 +9,7 @@ describe() # basic statistcal char of each numerical value
 
 # check duplicated values of 'author_id'
 duplicateValues = tweetData.duplicated()
-print(duplicatedValues.sum())
+print(duplicateValues.sum())
 tweetData[duplicateValues]
 
 ''' Identify 3 ways the data can be cleaned '''
