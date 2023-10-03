@@ -1,11 +1,6 @@
 ''' Understand the data and describe the data using Python libraries '''
-# Load dataset into pandas python notebook
-import pandas as pd
-df = pd.read_csv('twcs.csv')
-print(df)
-head() # returns first 5 dataset records 
-info() # char of data (column names)
-describe() # basic statistcal char of each numerical value 
+# head() method eturns the first five records from the dataset.
+
 
 # check duplicated values of 'author_id'
 duplicateValues = tweetData.duplicated()
@@ -36,3 +31,13 @@ VerizonSupport, ChipotleTweets, ATVIAssist, AdobeCare, AmazonHelp,
 AirbnbHelp, nationalrailenq, AirAsiaSupport, NikeSupport, AskAmex,
 McDonalds, AppleSupport, Uber_Support, Delta
 '''
+
+# Notes: 
+# Coverted year and month 
+# Inbound and outbound true & false 
+# Research the data 
+
+#Next week 
+# Do not clean NULL values 
+# Come up with questions 
+# Numerical and string data 
